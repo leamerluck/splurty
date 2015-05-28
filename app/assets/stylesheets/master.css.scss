@@ -8,7 +8,7 @@
     font-style: italic;
     position: relative;
     border-radius: 100%;
-    background: #4192D1;
+    background: #336699;
     border: 1px solid #225882;
     width: 80px;
     height: 80px;
@@ -40,7 +40,7 @@
 	border-bottom: 1px solid #dfdfdf;
 	font-family: '3dumbregular', sans-serif;
 	font-weight: bold;
-	padding-right: 20px;
+	
 
 }
 
@@ -53,7 +53,7 @@ hr {
 }
 
 h1 {
-    font-family: '3dumbregular', Georgia, serif;;
+    font-family: '3dumbregular', Georgia, serif;
     font-weight: bold;
     font-size: 48px;
     padding-left: 10px;
@@ -67,7 +67,7 @@ h2 {
 }
 
 .next-quote {
-    color: #D6476A;
+    color: #336699;
     font-family: '2dumbregular', Georgia, serif;
     font-size: 20px;
     
@@ -88,3 +88,21 @@ h2 {
     font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 }
 
+.modal {
+    font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+h2 span {
+    color: #516A8A;
+    font-family: '3dumbregular', Georgia, serif;
+}
+
+::selection {
+    background-color: #336699;
+}
+
+@media (max-width: 750px) {
+    .footer-blurb {
+        text-align: left;
+    }
+}
